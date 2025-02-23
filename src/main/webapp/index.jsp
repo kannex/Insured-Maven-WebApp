@@ -1,5 +1,12 @@
 <html>
+<head>
+<style>
+h1 {text-align: center;}
+p {text-align: center;}
+</style>
+</head>
 <body>
-<h2><%= "Hello World!" %></h2>
+<h1>Hello World!</h1>
+<p>This is Course-End-Project.</p>
 </body>
 </html>
