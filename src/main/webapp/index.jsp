@@ -8,6 +8,6 @@ p {text-align: center;}
 <body>
 <h1>Hello World!</h1>
 <p>This is Course-End-Project.</p>
-<p>Submitted by Ekan David.</p>
+<p>Submitted by Ekan.</p>
 </body>
 </html>
