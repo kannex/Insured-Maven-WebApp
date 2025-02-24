@@ -19,5 +19,13 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
+    - name: trigger jenkins Job
+      uses: admin/jenkins-action@master
+      with:
+        url: "http://localhost:8080"
+        user: "admin"
+        token: ${{ secrets.1190299d82da1361a4b65c8e0c74c12ed8 }}
+        job: "TomcatDeployment"
 
   
