@@ -20,7 +20,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
     - name: trigger jenkins Job
-      uses: appleboy/jenkins-action@main
+      uses: kannex/jenkins-action@master
       with:
         url: "http://172.20.10.5:8080"
         user: "admin"
