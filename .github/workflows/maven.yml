@@ -24,7 +24,7 @@ jobs:
       with:
         url: "http://172.20.10:8080"
         user: "admin"
-        token: ${{ secrets.1190299d82da1361a4b65c8e0c74c12ed8 }}
+        token: ${{ secrets.JENKINS_TOKEN }}
         job: "TomcatDeployment"
     
 
